@@ -1,0 +1,111 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+    margin: 0;   
+}
+
+.menu-verhnee {
+    display: inline-block;
+    background-color: #f7f7f7;
+    width: 100%;
+    color: #525066;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.menu-verhnee-left, .ul-li li {
+    float: left;
+}
+
+.menu-verhnee-right {
+    float: right;
+}
+
+.ul-li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-li li {
+    padding: 20px 15px;
+}
+
+.menu-nijnee {
+    width: 100%;
+
+
+}
+.menu-nijnee ul li {
+    padding: 40px 80px;
+    color: #525066;
+}
+
+.br li {
+    border-right: 1px solid  #d3d1d1;
+
+}
+
+.br li:last-child {
+    border-right: 0;
+}
+
+.ul-li i {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.icon-msg {
+    position: relative;
+}
+
+.msg {
+    position: absolute;
+    top: -9px;
+    right: 5px;
+    background: red;
+    width: 13px;
+    height: 13px; 
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    line-height: 1.5;
+    border-radius: 50%;
+}
+.logo {
+    padding: 40px 40px;
+
+}
+
+
+
+/*.bottom-menu {
+    width: 1220px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    color: #525066;
+}
+
+.bottom-menu-left ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 100px;  
+}
+
+.bottom-menu-right ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+   
+}*/

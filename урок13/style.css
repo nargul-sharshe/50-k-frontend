@@ -1,0 +1,274 @@
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-Medium.woff") format("woff"),
+       url("./fonts/Gilroy-Medium.woff") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+.body {
+  background-color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Gilroy-Medium; 
+  gap: 158px;
+}
+
+.header a {
+  font-size: 18px;
+  color: #828282;
+  text-decoration: none;
+}
+
+ hr { 
+  width: 945px;
+  border: 1px solid #828282;
+}
+
+.who-i-am {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Gilroy;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  gap: 315px;
+}
+
+.who-i-am h1 {
+  font-family: Gilroy-Bold;
+  font-size: 47.3392px;
+  color: #070707;
+}
+
+.who-i-am p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.who-i-am span {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+
+.my-picture {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between center;
+  font-family: Gilroy;
+  gap: 30px;
+  margin-top: 150px;
+  height: 506px;
+  background: #F6F6F6; 
+  padding: 100px; 
+}
+
+.about-me {
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  color: #070707;
+}
+
+.about-me-description {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  
+}
+.skills {
+  font-size: 34px;
+  color: #070707;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skills-prog {
+  text-align: center;
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 50px;
+}
+
+.prog-icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.prog-icons li {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.prog-name {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 0px;
+}
+.prog-name li {
+  margin-top: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #828282;
+}
+
+.ph {
+  margin-left: 150px;
+  margin right: 150px;
+}
+.ill {
+  margin-left: 100px;
+  margin-right: 80px;
+}
+.ae {
+  margin-left: 100px;
+  margin-right: 80px;
+}
+.fg {
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.stars {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.container-portfolio {
+  
+  background: #F6F6F6; 
+}
+
+.portfolio {
+  font-size: 34px;
+color: #070707;
+text-align: center;
+margin-top: 100px;
+padding-top: 100px;
+}
+
+.portfolio-1 {
+  margin-top: 100px;
+  margin-left: 260px;
+}
+.portfolio-description-1 {
+  font-size: 19px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+.portfolio-2 {
+  margin-top: 100px;
+  margin-left: 260px;
+}
+.portfolio-description-2 {
+  font-size: 19px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.portfolio-3 {
+  margin-top: 100px;
+  margin-left: 260px;
+}
+
+.portfolio-description-3 {
+  font-size: 19px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+  padding-bottom: 90px;
+}
+
+.footer-header {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 90px;
+  padding-bottom: 30px;
+  color: #070707
+}
+
+.contacts-description {
+  text-align: center;
+  font-size: 19px;
+}
+
+.botton-oval {
+  display: inline-block;
+  width: 190px;
+  height: 40px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  background: #070707;
+  border-radius: 35px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 650px;
+  margin-top: 50px; 
+}
+
+.footer-icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footer-icons li {
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #828282;
+margin-bottom: 100px;
+}

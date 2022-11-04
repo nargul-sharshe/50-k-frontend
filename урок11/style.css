@@ -1,0 +1,78 @@
+
+ 
+.header-top {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: fuchsia;
+    
+}
+
+.products {
+    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: aqua;
+}
+
+.footer {
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: blueviolet;
+}
+
+.header-top #header-first,
+.header-top #header-second {
+    background-color: antiquewhite;
+    font-size: small;
+}
+
+.header-top-left li {
+    color: black;
+}
+
+.header-middle {
+    background-color: aquamarine;
+}
+
+
+.products-item #products-picture {
+    background-color: rgb(58, 231, 81);
+}
+
+.products-item li {
+    color: rgb(44, 7, 92);
+}
+
+
+.header-top-right li,
+.header-middle li,
+.header-bottom-left li,
+.header-bottom-right p,
+.products-featured h1,
+.products-view p,
+.products-item-for-kids p {
+    color: blueviolet;
+}
+
+
+.footer-contacts p,
+.footer-contacts li,
+.footer-information h3,
+.footer-information li,
+.footer-service h3,
+.footer-service li,
+.footer-social-media h3 {
+    color: black;
+}
+
+.footer #about-us,
+.footer #inform,
+.footer #serv,
+.footer #inst {
+    color: aliceblue;
+}
+
+
+

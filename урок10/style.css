@@ -1,0 +1,56 @@
+
+  body {
+    font-style: normal;
+ }
+
+.header-top {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: blue;
+    
+}
+
+.products {
+    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.products {
+    background-color: blue;
+}
+
+.footer {
+    background-color: black;
+}
+
+.header-top-left li,
+.header-top-right li,
+.header-middle li,
+.header-bottom-left li,
+.header-bottom-right p,
+.products-featered h1,
+.products-view p,
+.products-item li,
+.products-item-for-kids p,
+.footer-contacts p,
+.footer-contacts li,
+.footer-information h3,
+.footer-information li,
+.footer-service h3,
+.footer-service li,
+.footer-social-media h3 {
+    color: white;
+}
+
+ 
+
+
+
