@@ -17,13 +17,3 @@
 // attribute 
 // tag 
 
-let ttl = document.getElementsByClassName("item-title");
-console.log(ttl[2].innerText);
-
-let img = document.getElementsByClassName("item-img");
-console.log(img[0].nodeName);
-
-let price = document.getElementsByClassName("item-price");
-console.log(price[0].innerHTML);
-
-
