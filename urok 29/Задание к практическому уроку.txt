@@ -1,0 +1,74 @@
+Задачи:
+
+1. Рассмотреть, что такое циклы.
+2. Условия и циклы.
+3. Разбор массива с помощью циклов  
+Получение точного заголовка по клику на кпонпку добавить в корзину
+----
+
+Методы массивов "forEach", filter, reduce, map
+
+--forEach--
+        var arr = ["Яблоко", "Апельсин", "Груша"];
+        arr.forEach(function(item, i, arr) {
+            alert( i + ":" + item + " (массив: "+ arr +")" );
+        })
+
+
+
+-- filter---  
+
+        var arr = [1, -1, 2, -2, 3,];
+
+        var positiveArr = arr.filter(function(number) {
+            return number > 1;
+        });
+
+        alert( positiveArr );
+
+
+
+--Length--
+
+        var names = ["HTML", "CSS", "JavaScript"];
+
+        var nameLength = names.map (function(name){
+            return name.length;
+        });
+
+        alert( nameLength );
+
+
+ --every, some-- 
+
+        var arr = [1, -1, 2, -2, 3];
+
+        function isPositive(number) {
+            return number > 0;
+        }
+
+        alert( arr.every(isPositive) ); //false, не все положительные
+        alert( arr.some( isPositive) ); //true, есть хоть одно положительное
+
+ --reduce-- - сумма всех чисел в массиве
+
+var arr = [1, 12, 23, 43, 5];
+
+var result = arr.reduce(function(sum, current){
+    return sum + current;
+}, 0);
+
+alert( result );
+
+-----
+
+querySelectorAll
+
+let ttl = document.querySelector(".body-item > .item-title");
+
+console.log(ttl[0].innerText);
+console.log(ttl[1].innerText);
+console.log(ttl[2].innerText);
+console.log(ttl[3].innerText);
+console.log(ttl[4].innerText);
+
