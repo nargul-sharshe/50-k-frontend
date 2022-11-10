@@ -21,9 +21,18 @@ let ttl = document.getElementsByClassName("item-title");
 console.log(ttl[2].innerText);
 
 let img = document.getElementsByClassName("item-img");
-console.log(img[0].nodeName);
+console.log(img[0].currentSrc);
 
 let price = document.getElementsByClassName("item-price");
 console.log(price[0].innerHTML);
 
 
+
+
+// let ttl = document.querySelector(".body-item > .item-title");
+
+// console.log(ttl[0].innerText);
+// console.log(ttl[1].innerText);
+// console.log(ttl[2].innerText);
+// console.log(ttl[3].innerText);
+// console.log(ttl[4].innerText);
