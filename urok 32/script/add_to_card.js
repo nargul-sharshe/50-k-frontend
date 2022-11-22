@@ -63,3 +63,50 @@ function name_fun(number){
 }
 
 name_fun(200)
+
+
+// Методы и свойства
+// length - считает и символы и буквы
+let text = "Привет! Как у тебя дела?";
+console.log(text.length);
+
+
+// indexOf  - позволяет искать элементы в строке или в тексте.
+let text = "Привет! Как у тебя дела?";
+console.log(text.indexOf("тебя"));
+
+// search() - такой же метод как и indexOf
+// slice (substring) - два параметра, входной и последующие от нужного нам элемента.
+
+let text = "Привет! Как у тебя дела?";
+console.log(text.slice(7,11));
+
+// replace - 
+
+let text = "Привет! Как у тебя дела?";
+console.log(text.replace("тебя","меня"));
+
+
+
+let text = "Привет! Как у тебя дела?";
+console.log(text.toLowerCase());
+
+// trim - будет удалять лишние пробелы
+
+let text = "     Привет! Как у тебя дела?";
+console.log(text.trim);
+
+
+
+// Методы чисел
+//  toString()
+
+
+let number = 120;
+number.toString
+
+// toFixed() - округяет числа после зяпятой.
+
+// "+" - конвертация строки в цифры
+
+// toExponential 
