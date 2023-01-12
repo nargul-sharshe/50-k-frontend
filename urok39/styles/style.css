@@ -299,17 +299,16 @@ ul.first-menu-right-items {
     float: right;
     text-align: center;
     margin-top: -90px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .shopcard_dropdown .bag_img {
-    padding: 10px; 
-    width: 15px;
+    padding: 20px; 
+    width: 30px;
 }
 
 .shopcard_dropdown .info_price {
     float: right;
-    text-align: center;
     font-weight: bold;
     margin-top: -60px;
     font-size: 18px;
@@ -320,6 +319,34 @@ ul.first-menu-right-items {
     margin-top: -30px;
 }
 
+.shopcart_total {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shopcart_total > span {
+    margin-right: 40px;
+    padding-left: 35px;
+
+}
+.checkout{
+    width: 200px;
+    height: 70px;
+    background-color: #7cd0f5;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.checkout-text {
+    color: white;
+    font-size: 20px;
+    font-weight:500;
+    text-align: center;
+}
 .bag_img img {
     width: 60px;
 }
@@ -356,8 +383,7 @@ ul.first-menu-right-items {
 
 
 #product {
-    padding: 0 15px;
-    
+    padding: 0 15px; 
 }
 
 .body-block {

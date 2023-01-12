@@ -126,6 +126,7 @@ let price = this.parentNode.parentNode.parentNode.querySelectorAll(".price span"
 let image = this.parentNode.parentNode.parentNode.parentNode.querySelectorAll(".product img");
 
 let creat_li = document.createElement('li');
+// let creat_li.classList.add("bag_item");
 
 console.log();
 console.log();
@@ -133,7 +134,7 @@ console.log();
 
 
 creat_li.innerHTML = '<div class="bag_img">\
-                        <a href="?search=#">\
+                        <a href="#">\
                             <img src="'+image[0].src+'" alt=""></a></div>\
                         <div class="bag_info">\
                         <p class="info_title"><a href="?search=#">'+title[0].innerText+'</a></p>\
