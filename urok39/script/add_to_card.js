@@ -117,23 +117,19 @@
 
 let class_name = document.getElementsByClassName("add_cart");
 
-console.log(class_name);
 
-let myFunction = function() {
+let myFunction = function(evt) {
+    evt.preventDefault();
    
-let title = this.parentNode.parentNode.parentNode.querySelectorAll(".body-item p");
-let price = this.parentNode.parentNode.parentNode.querySelectorAll(".price span");
-let image = this.parentNode.parentNode.parentNode.parentNode.querySelectorAll(".product img");
+    let title = this.parentNode.parentNode.parentNode.querySelectorAll(".body-item p");
+    let price = this.parentNode.parentNode.parentNode.querySelectorAll(".price span");
+    let image = this.parentNode.parentNode.parentNode.parentNode.querySelectorAll(".product img");
 
-let creat_li = document.createElement('li');
-// let creat_li.classList.add("bag_item");
-
-console.log();
-console.log();
-console.log();
+    let creat_li = document.createElement('li');
+    creat_li.classList.add('bag_item');
 
 
-creat_li.innerHTML = '<div class="bag_img">\
+    creat_li.innerHTML = '<div class="bag_img">\
                         <a href="#">\
                             <img src="'+image[0].src+'" alt=""></a></div>\
                         <div class="bag_info">\
@@ -146,17 +142,34 @@ creat_li.innerHTML = '<div class="bag_img">\
                         </div>\
                       </div>';
 
-let block_cart = document.querySelector('.shopcard_dropdown ul');
-block_cart.appendChild(creat_li);
+    let block_cart = document.querySelector('.shopcard_dropdown ul');
+    block_cart.appendChild(creat_li);
 
-alert("Товар добавлен в корзину!");
+    alert("Товар добавлен в корзину!");
 
-};
+    //Удаление товара
+
+    let click_trash = document.querySelectorAll('.trash');
+
+    for (var i = 0; i < click_trash.length; i++) {
+        click_trash[i].addEventListener('click', del_func, false);
+    }
+
+    function del_func(){
+        evt.preventDefault();
+        
+        this.parentNode.parentNode.remove();
+    }
+
+    };
 
 
 for (var i = 0; i < class_name.length; i++) {
     class_name[i].addEventListener('click', myFunction, false);
-};
+}
 
 // addEventListener - добовляем событие клика
- 
+    
+
+
+
