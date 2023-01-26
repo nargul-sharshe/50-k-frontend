@@ -178,6 +178,7 @@ let class_name = document.getElementsByClassName("add_cart");
         }
     }
 
+    // итоговая сумма в корзине
     function totalPrice(){
         let countPrice = document.querySelectorAll('.info_price .oprice');
 
@@ -191,8 +192,25 @@ let class_name = document.getElementsByClassName("add_cart");
         document.querySelectorAll('.shopcart_total span')[0].innerHTML = `$ ${totalPrice}`;
     }
 
+    // общее количество товара в корзине
 
     function countProduct(){
         let count_product = document.getElementsByClassName('bag_item').length;
         document.getElementsByClassName('cart_count')[0].innerHTML = count_product;
     }
+
+    const tabs = {
+        listTabs: [
+            "Лидеры продаж",
+            "Новинки",
+            "Распродажа"
+        ]
+    }; 
+
+    let creatUl = document.createElement("ul");
+
+    tabs.listTabs.forEach((item, i) => {
+        creatUl.innerHTML += `<li>${item}</li>`;
+    });
+
+    document.querySelector('.insert_listing').innerHTML += creatUl.outerHTML; 

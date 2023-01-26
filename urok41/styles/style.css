@@ -230,8 +230,8 @@ ul.first-menu-right-items {
 }
 
 .search-btn {
-  color: #535271;
-  text-decoration: none;
+    color: #535271;
+    text-decoration: none;
 }
 
 .search-txt {
@@ -367,6 +367,13 @@ ul.first-menu-right-items {
     font-family: sans-serif;
     font-size: 24px;
     color: #5d5b97;
+}
+
+.blok-title ul {
+    display: flex;
+    gap: 30px;
+    color: blue;
+    font-weight: bold;
 }
 
 .right a {
